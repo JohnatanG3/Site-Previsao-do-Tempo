@@ -6,13 +6,15 @@
 }
 
 body {
-    background-image: url("https://source.unsplash.com/1600x900/?landscape");
+    background-image: url("./img/como-sera-o-clima-de-setembro-chuvas-se-espalharao-pelo-brasil-1662042338165_1280.jpg");
     background-size: cover;
     height: 100vh; /* ALTURA */
     width: 100vw; /* LARGURA */
     display: flex;
     align-items: center;
     justify-content: center;
+    background-position: center;
+    background-size: cover;
 }
 
 .caixa-maior {

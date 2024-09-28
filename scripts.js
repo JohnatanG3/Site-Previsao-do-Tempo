@@ -30,3 +30,8 @@ function colocarNaTela(dados) {
     document.querySelector(".icone").src = "https://openweathermap.org/img/wn/" + dados.weather[0].icon + ".png";
     document.querySelector(".umidade").innerHTML = "Umidade: " + Math.floor(dados.main.humidity) + "%";
 }
+
+// Coloca o foco no input ao carregar o site
+window.onload = function() {
+    document.querySelector(".input-cidade").focus();
+};
